@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+header{
+    background-color:black;
+    height: 67.2px;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    height: 67.2px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px;
+}
+.logo{
+    background-size: cover;
+    background-image: url("flipkart\ logo.png");
+    height: 40px;
+    width: 160px;
+    cursor: pointer;
+}
+.nav-search {
+    display: flex;
+    height: 40px;
+    width: 708px;
+}
+.search-icon{
+    width: 44px;
+    padding: 8px 8px 8px 12px;
+    font-size: 20px;
+    background-color: rgb(250, 240, 227);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.search-input{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(250, 240, 227);
+}
+.search-input::placeholder{
+    font-size: 18px;
+}
+.nav-login{
+    display: flex;
+    padding: 8px;
+    height: 41.6px;
+    width: 111.2px;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+}
+.img-1{
+    height: 24px;
+    width: 24px;
+    margin: 0px 8px 0px 0px;
+}
+.img-2{
+    height: 12px;
+    width: 12px;
+    margin: 0px 0px 0px 8px;
+}
+.nav-login:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.nav-cart{
+    padding: 0px 20px;
+    font-size: 16px;
+    height: 24px;
+    width: 104px;
+    cursor: pointer;
+}
+.nav-seller{
+    padding: 0 20px;
+    height: 24px;
+    width: 195.2px;
+    cursor: pointer;
+}
+.nav-menu{
+    height: 41.6px;
+    width: 81.6px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.menu{
+    padding: 8px;
+    height: 41.6px;
+    width: 41.6px;
+}
+.content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 240, 227);
+    gap: 15px;
+}
+.options{
+    width: 100%;
+    height: 126px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.option-box{
+    width: 130px;
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 20px;
+    cursor: pointer;
+}
+.opt-img{
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+}
+span{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+}
+.hero-section{
+    height: 249.48px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("main\ picture.png");
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    background-color: #fff;
+    padding-bottom: 0px;
+}
+.heading span{
+    height: 80px;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.heading span i{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.product-list{
+    height: 264px;
+    padding: 0px 4px 12px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+.box{
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    padding: 10px;
+    cursor: pointer;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.box-img{
+    height: 186.4px;
+    width: 186.4px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    background-size: cover;
+}
+.name{
+    color: #212121;
+    font-size: 14px;
+    text-align: center;
+}
+.footer h5, h3, p, h4{
+    cursor: pointer;
+    background-color: rgb(250, 240, 227);
+    padding-left: 10px;
+    color: #565656;
+}
+.footer h5{
+    font-size: 16px;
+    padding: 14px 10px;
+}
+.info{
+    color: #878787;
+}
+.foot-panel1{
+    background-color: #222f3d;
+    padding: 35px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel1 ul{
+    color: #878787;
+    display: flex;
+    flex-direction: column;
+}
+.foot-panel1 ul a{
+    color: white;
+}
+.foot-panel1 ul p{
+    padding: 0;
+    background-color: #222f3d;
+    color: white;
+}
+.foot-panel1 ul a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.foot-panel2{
+    font-size: 12px;
+    background-color: #222f3d;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    color: white;
+}
+.panel i{
+    color: orange;
+}
